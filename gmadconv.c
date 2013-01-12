@@ -103,7 +103,7 @@ int main(const int argc, const char *argv[])
 		puts("Addon is empty");
 		return 0;
 	}
-	mkdir(addonname);
+	mkdir(addonname, 0755);
 	chdir(addonname);
 	for (i = 0; i < filecnt; i++)
 	{
