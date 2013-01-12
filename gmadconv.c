@@ -1,3 +1,9 @@
+/*
+* Modifications by Ben 'Cue' Woodford
+* With Credit to SiPlus (original author)
+* Also with Credit to zQaX for fixing an earlier issue
+*/
+
 #include <unistd.h>
 #include <errno.h>
 #include <stdio.h>
